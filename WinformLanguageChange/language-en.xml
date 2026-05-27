@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<AirControl language ="English">
+	<Menu>
+		<Project>
+			<Item id ="0" key ="MenuProject" value ="Program(&amp;P)" />
+			<Item id ="1" key ="MenuProjectItem1" value ="New(&amp;N)" />
+			<Item id ="2" key ="MenuProjectItem2" value ="Open(&amp;O)" />
+			<Item id ="3" key ="MenuProjectItem3" value ="Save(&amp;S)" />
+			<Item id ="4" key ="MenuProjectItem4" value ="Exit(&amp;X)" />
+		</Project>
+		<Manage>
+			<Item id ="0" key ="MenuManage" value ="Manage(&amp;M)" />
+			<Item id ="1" key ="MenuManageItem1" value ="Login(&amp;I)" />
+			<Item id ="2" key ="MenuManageItem2" value ="LogOut(&amp;O)" />
+			<Item id ="3" key ="MenuManageItem3" value ="PwdModify(&amp;C)" />
+			<Item id ="4" key ="MenuManageItem4" value ="UserManage(&amp;U)" />
+		</Manage>
+		<Help>
+			<Item id ="0" key ="MenuHelp" value ="Help(&amp;H)" />
+			<Item id ="1" key ="MenuHelpItem1" value ="About(&amp;A)" />
+			<Item id ="2" key ="MenuHelpItem2" value ="Instruction(&amp;U)" />
+			<Item id ="3" key ="MenuHelpItem3" value ="Version(&amp;V)" />
+		</Help>
+	</Menu>
+	<ToolBar>
+		<StatuBar>
+			<Item id ="0" key ="StatuBarItem1" value ="UserName" />
+			<Item id ="1" key ="StatuBarItem2" value ="UserGroup" />
+			<Item id ="2" key ="StatuBarItem3" value ="LastLoginTime" />
+			<Item id ="3" key ="StatuBarItem4" value ="CurrentLoginTime" />
+		</StatuBar>
+	</ToolBar>
+	<Form>
+		<MainForm>
+			<Item id ="0" key ="MainForm" value ="xx" />
+			<Item id ="1" key ="buttonGo" value ="Start" />
+			<Item id ="2" key ="buttonStop" value ="Stop" />
+			<Item id ="3" key ="groupBox1" value ="UserInfo" />
+			<Item id ="4" key ="groupBox2" value ="GeneralData" />
+		</MainForm>
+		<UserLoginForm>
+			<Item id ="0" key ="UserLoginForm" value ="UserLogin" />
+			<Item id ="1" key ="labelUserName" value ="UserName:" />
+			<Item id ="2" key ="labelPassword" value ="Password:" />
+			<Item id ="3" key ="buttonLogin" value ="Login" />
+			<Item id ="4" key ="buttonCancel" value ="Cancel" />
+		</UserLoginForm>
+		<UserRegisterForm>
+			<Item id ="0" key ="UserRegisterForm" value ="UserRegister" />
+			<Item id ="1" key ="labelUserName" value ="UserName:" />
+			<Item id ="2" key ="labelPassword" value ="Password:" />
+			<Item id ="3" key ="labelConfirmPassword" value ="ConfirmPassword:" />
+			<Item id ="4" key ="buttonRegister" value ="Register" />
+			<Item id ="5" key ="buttonCancel" value ="Cancel" />
+		</UserRegisterForm>
+		<UserModifyForm>
+			<Item id ="0" key ="UserModifyForm" value ="UserModify" />
+			<Item id ="1" key ="labelUserName" value ="UserID:" />
+			<Item id ="2" key ="labelPassword" value ="Password:" />
+			<Item id ="3" key ="labelConfirmPassword" value ="ConfirmPassword:" />
+			<Item id ="4" key ="buttonModify" value ="Modify" />
+			<Item id ="5" key ="buttonCancel" value ="Cancel" />
+		</UserModifyForm>
+		<AboutForm>
+			<Item id ="0" key ="AboutForm" value ="About" />
+			<Item id ="1" key ="labelProductName" value ="ProductName:" />
+			<Item id ="2" key ="labelVersion" value ="Version:" />
+			<Item id ="3" key ="labelCopyright" value ="Copyright:" />
+			<Item id ="4" key ="labelCompanyName" value ="CompanyName:" />
+			<Item id ="5" key ="buttonOK" value ="OK" />
+		</AboutForm>
+	</Form>
+	<Dialog>
+		<Title>
+			<Item id ="0" key ="0001" value ="xx" />
+			<Item id ="1" key ="0002" value ="AddTest" />
+			<Item id ="2" key ="0003" value ="AddUser" />
+			<Item id ="3" key ="0004" value ="ModifyUser" />
+			<Item id ="4" key ="0005" value ="DeleteUser" />
+			<Item id ="5" key ="0006" value ="ConfirmDelete" />
+			<Item id ="6" key ="0007" value ="ConfirmModify" />
+			<Item id ="7" key ="0008" value ="ConfirmAdd" />
+		</Title>
+		<Message>
+			<Item id ="0" key ="1001" value ="OK" />
+			<Item id ="1" key ="1002" value ="Wrong username or password" />
+			<Item id ="2" key ="1003" value ="Are you sure to add the user?" />
+			<Item id ="3" key ="1004" value ="Are you sure to delete the user?" />
+			<Item id ="4" key ="1005" value ="Are you sure to modify the user?" />
+			<Item id ="5" key ="1006" value ="Passwords are not consistent" />
+			<Item id ="6" key ="1007" value ="User name already exists" />
+			<Item id ="7" key ="1008" value ="User added successfully" />
+		</Message>
+	</Dialog>
+</AirControl>
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="GB2312" ?> 
+<AirControl language ="简体中文">
+	<Menu>
+		<Project>
+			<Item id ="0" key ="MenuProject" value ="项目(&amp;P)" />
+			<Item id ="1" key ="MenuProjectItem1" value ="新建(&amp;N)" />
+			<Item id ="2" key ="MenuProjectItem2" value ="打开(&amp;O)" />
+			<Item id ="3" key ="MenuProjectItem3" value ="保存(&amp;S)" />
+			<Item id ="4" key ="MenuProjectItem4" value ="退出(&amp;X)" />
+			</Project>
+		<Manage>
+			<Item id ="0" key ="MenuManage" value ="管理(&amp;M)" />
+			<Item id ="1" key ="MenuManageItem1" value ="登录(&amp;I)" />
+			<Item id ="2" key ="MenuManageItem2" value ="注消(&amp;O)" />
+			<Item id ="3" key ="MenuManageItem3" value ="修改密码(&amp;C)" />
+			<Item id ="4" key ="MenuManageItem4" value ="用户管理(&amp;U)" />
+			</Manage>
+		<Help>
+			<Item id ="0" key ="MenuHelp" value ="帮助(&amp;H)" />
+			<Item id ="1" key ="MenuHelpItem1" value ="关于(&amp;A)" />
+			<Item id ="2" key ="MenuHelpItem2" value ="使用说明(&amp;U)" />
+			<Item id ="3" key ="MenuHelpItem3" value ="版本信息(&amp;V)" />
+			</Help>
+		</Menu>
+	<ToolBar>
+		<StatuBar>
+			<Item id ="0" key ="StatuBarItem1" value ="用户名" />
+			<Item id ="1" key ="StatuBarItem2" value ="用户组" />
+			<Item id ="2" key ="StatuBarItem3" value ="上次登录时间" />
+			<Item id ="3" key ="StatuBarItem4" value ="本次登陆时间" />
+			</StatuBar>
+		</ToolBar>
+	<Form>
+		<MainForm>
+			<Item id ="0" key ="MainForm" value ="xx" />
+			<Item id ="1" key ="buttonGo" value ="开始" />
+			<Item id ="2" key ="buttonStop" value ="停止" />
+			<Item id ="3" key ="groupBox1" value ="用户信息" />
+			<Item id ="4" key ="groupBox2" value ="常规数据" />
+		</MainForm>
+		<UserLoginForm>
+			<Item id ="0" key ="UserLoginForm" value ="用户登录" />
+			<Item id ="1" key ="labelUserName" value ="用户名:" />
+			<Item id ="2" key ="labelPassword" value ="密码:" />
+			<Item id ="3" key ="buttonLogin" value ="登录" />
+			<Item id ="4" key ="buttonCancel" value ="取消" />
+			</UserLoginForm>
+		<UserRegisterForm>
+			<Item id ="0" key ="UserRegisterForm" value ="用户注册" />
+			<Item id ="1" key ="labelUserName" value ="用户名:" />
+			<Item id ="2" key ="labelPassword" value ="密码:" />
+			<Item id ="3" key ="labelConfirmPassword" value ="确认密码:" />
+			<Item id ="4" key ="buttonRegister" value ="注册" />
+			<Item id ="5" key ="buttonCancel" value ="取消" />
+			</UserRegisterForm>
+		<UserModifyForm>
+			<Item id ="0" key ="UserModifyForm" value ="用户修改" />
+			<Item id ="1" key ="labelUserName" value ="用户名:" />
+			<Item id ="2" key ="labelPassword" value ="密码:" />
+			<Item id ="3" key ="labelConfirmPassword" value ="确认密码:" />
+			<Item id ="4" key ="buttonModify" value ="修改" />
+			<Item id ="5" key ="buttonCancel" value ="取消" />
+			</UserModifyForm>
+		<AboutForm>
+			<Item id ="0" key ="AboutForm" value ="关于" />
+			<Item id ="1" key ="labelProductName" value ="产品名称:" />
+			<Item id ="2" key ="labelVersion" value ="版本:" />
+			<Item id ="3" key ="labelCopyright" value ="版权所有:" />
+			<Item id ="4" key ="labelCompanyName" value ="公司名称:" />
+			<Item id ="5" key ="labelDescription" value ="描述:" />
+			<Item id ="6" key ="buttonOK" value ="确定" />
+			</AboutForm>
+		</Form>
+	<Dialog>
+		<Title>
+			<Item id ="0" key ="0001" value ="xx" />
+			<Item id ="1" key ="0002" value ="添加测试" />
+			<Item id ="2" key ="0003" value ="添加用户" />
+			<Item id ="3" key ="0004" value ="修改密码" />
+			<Item id ="4" key ="0005" value ="删除用户" />
+			<Item id ="5" key ="0006" value ="确认删除" />
+			<Item id ="6" key ="0007" value ="确认修改" />
+			<Item id ="7" key ="0008" value ="确认添加" />
+			<Item id ="8" key ="0009" value ="确认删除" />
+			<Item id ="9" key ="0010" value ="确认修改" />
+			</Title>
+		<Message>
+			<Item id ="0" key ="1001" value ="一切正常" />
+			<Item id ="1" key ="1002" value ="用户名或密码错误" />
+			<Item id ="2" key ="1003" value ="是否确认添加用户?" />
+			<Item id ="3" key ="1004" value ="是否确认删除?" />
+			<Item id ="4" key ="1005" value ="是否确认修改?" />
+			<Item id ="5" key ="1006" value ="密码不一致" />
+			<Item id ="6" key ="1007" value ="用户名已存在" />
+			<Item id ="7" key ="1008" value ="用户添加成功" />
+			</Message>
+		</Dialog>
+	</AirControl>
+	
+		
